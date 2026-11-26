@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "description": "NEPOLION AI — Your Personal AI. Your Control. একটি ব্যক্তিগত বাংলা AI Assistant প্ল্যাটফর্ম।",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Nepolion AI",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Nepolion AI",
+  "start_url": "/",
+  "theme_color": "#070b1b",
+  "id": "com.nepolion.ai"
+}
