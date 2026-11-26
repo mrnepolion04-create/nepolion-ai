@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b1b">
+  <meta name="description" content="NEPOLION AI — Your Personal AI. Your Control. একটি ব্যক্তিগত বাংলা AI Assistant প্ল্যাটফর্ম।">
+  <title>NEPOLION AI | Your Personal AI</title>
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;color:#f5f7ff;
+      font-family:Arial,"Noto Sans Bengali",sans-serif;
+      background:radial-gradient(ellipse at top,#17224d,#070b1b 55%,#03050e);
+      line-height:1.7
+    }
+    a{color:inherit;text-decoration:none}
+    .wrap{width:92%;max-width:1100px;margin:auto}
+    header{
+      position:sticky;top:0;z-index:5;
+      background:#070b1bee;backdrop-filter:blur(12px);
+      border-bottom:1px solid #39436b
+    }
+    nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0;gap:12px}
+    .logo{
+      font-size:21px;font-weight:900;letter-spacing:1px;
+      background:linear-gradient(90deg,#42eaff,#ff4fd8,#a77bff);
+      -webkit-background-clip:text;color:transparent
+    }
+    .navlinks{display:flex;gap:17px;font-size:14px;color:#c4cbe2}
+    .hero{text-align:center;padding:75px 0 55px}
+    .orb{
+      width:145px;height:145px;border-radius:50%;margin:0 auto 28px;
+      background:radial-gradient(circle at 35% 30%,#fff,#43eaff 12%,#774cff 43%,#11152d 70%);
+      box-shadow:0 0 25px #43eaff,0 0 65px #a34cff,0 0 100px #ff4fd855;
+      animation:float 4s ease-in-out infinite
+    }
+    @keyframes float{50%{transform:translateY(-12px) rotate(8deg);filter:hue-rotate(90deg)}}
+    h1{font-size:clamp(34px,7vw,65px);line-height:1.15;margin:10px 0}
+    .gradient{
+      background:linear-gradient(90deg,#43eaff,#ff4fd8,#a77bff);
+      -webkit-background-clip:text;color:transparent
+    }
+    .sub{color:#c0c9e4;max-width:720px;margin:18px auto}
+    .btn{
+      display:inline-block;margin:8px;padding:12px 22px;border-radius:12px;
+      font-weight:bold;border:1px solid #65eaff;
+      background:linear-gradient(100deg,#135a78,#583080);
+      box-shadow:0 0 18px #43eaff44
+    }
+    .btn.secondary{background:#111a35;border-color:#a77bff}
+    section{padding:45px 0}
+    .section-title{text-align:center;font-size:29px;margin:0 0 25px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{
+      padding:21px;border:1px solid #343e69;border-radius:17px;
+      background:linear-gradient(145deg,#111a35dd,#0a1025ee);
+      box-shadow:0 0 22px #6c4dff12
+    }
+    .card h3{margin-top:0;color:#72eaff}
+    .card p,.muted{color:#bac5e0}
+    .notice{
+      border:1px solid #8068be;background:#17142d;
+      border-radius:14px;padding:17px;color:#e1dcff
+    }
+    .download{text-align:center;border:1px solid #3f568a;border-radius:20px;padding:30px;background:#101832}
+    .disabled{opacity:.55;cursor:not-allowed}
+    footer{border-top:1px solid #303b61;padding:28px 0;color:#aeb9d7;text-align:center}
+    @media(max-width:650px){.navlinks{display:none}.hero{padding-top:55px}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="logo" href="#">NEPOLION AI</a>
+    <div class="navlinks">
+      <a href="#about">পরিচিতি</a>
+      <a href="#features">ফিচার</a>
+      <a href="#security">নিরাপত্তা</a>
+      <a href="#download">ডাউনলোড</a>
+    </div>
+    <a class="btn" href="#download">Get App</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="orb" aria-label="NEPOLION AI Orb"></div>
+    <p class="gradient"><b>WELCOME TO THE FUTURE</b></p>
+    <h1>NEPOLION <span class="gradient">AI</span></h1>
+    <h2>Your Personal AI. Your Control.</h2>
+    <p class="sub">
+      আপনার ব্যক্তিগত AI Assistant — কথা বলুন, প্রশ্ন করুন,
+      ছবি দেখান এবং দৈনন্দিন কাজে স্মার্ট সহায়তা নিন।
+      বাংলা ভাষায় সহজ ও আধুনিক AI অভিজ্ঞতার পথে এগিয়ে চলুন।
+    </p>
+    <a class="btn" href="#features">ফিচার দেখুন</a>
+    <a class="btn secondary" href="#download">অ্যাপ ডাউনলোড</a>
+    <p class="muted">Official project by MR NEPOLION</p>
+  </section>
+
+  <section id="about" class="wrap">
+    <h2 class="section-title">NEPOLION AI কী?</h2>
+    <div class="card">
+      <p>
+        NEPOLION AI একটি পরিকল্পিত Personal AI Assistant প্ল্যাটফর্ম।
+        এর লক্ষ্য হলো AI Chat, Voice Conversation, ছবি বিশ্লেষণ,
+        ব্যক্তিগত পছন্দ এবং স্মার্ট সহায়তা এক জায়গায় নিয়ে আসা।
+      </p>
+      <p>
+        এই ওয়েবসাইট ও অ্যাপ ধাপে ধাপে তৈরি হচ্ছে।
+        যেসব ফিচার এখনো চালু হয়নি, সেগুলোকে আমরা ভবিষ্যৎ ফিচার
+        হিসেবে স্পষ্টভাবে চিহ্নিত করব।
+      </p>
+    </div>
+  </section>
+
+  <section id="features" class="wrap">
+    <h2 class="section-title">প্রধান ফিচারসমূহ</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>AI Chat</h3>
+        <p>বাংলায় প্রশ্ন করুন এবং AI-এর কাছ থেকে সহায়তা পাওয়ার পরিকল্পিত সুবিধা।</p>
+      </article>
+      <article class="card">
+        <h3>Voice Assistant</h3>
+        <p>কথা বলে নির্দেশ দেওয়া এবং কণ্ঠে উত্তর শোনার সুবিধা তৈরি করা হবে।</p>
+      </article>
+      <article class="card">
+        <h3>AI Vision</h3>
+        <p>ছবি আপলোড করে বস্তু, লেখা ও দৃশ্য সম্পর্কে প্রশ্ন করার সুবিধা।</p>
+      </article>
+      <article class="card">
+        <h3>Smart Memory</h3>
+        <p>ব্যবহারকারীর নিয়ন্ত্রণে পছন্দ ও গুরুত্বপূর্ণ তথ্য সংরক্ষণের ব্যবস্থা।</p>
+      </article>
+      <article class="card">
+        <h3>Personalization</h3>
+        <p>AI-এর কণ্ঠ, ব্যক্তিত্ব ও কথার ধরন নিজের পছন্দমতো সাজানোর পরিকল্পনা।</p>
+      </article>
+      <article class="card">
+        <h3>Android Assistant</h3>
+        <p>সমর্থিত Android API ও ব্যবহারকারীর অনুমতির ভিত্তিতে ফোনে সহায়তা।</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="security" class="wrap">
+    <h2 class="section-title">নিরাপত্তা ও গোপনীয়তা</h2>
+    <div class="notice">
+      <b>আপনার নিরাপত্তা গুরুত্বপূর্ণ।</b>
+      <p>
+        NEPOLION AI কোনো PIN, Password বা OTP চাওয়ার জন্য তৈরি নয়।
+        Microphone, Camera, Contacts বা অন্যান্য অনুমতি প্রয়োজন হলে
+        ব্যবহারকারীর সম্মতি নেওয়ার নীতি অনুসরণ করা হবে।
+      </p>
+      <p>
+        এই প্রাথমিক ওয়েবসাইটটি নিজে কোনো নিরাপত্তা সার্টিফিকেশন
+        বা স্বাধীন নিরাপত্তা পরীক্ষার দাবি করছে না।
+        ব্যবহার করার আগে প্রকাশিত Privacy Policy ও Permissions
+        সম্পর্কে তথ্য দেখে নেবেন।
+      </p>
+    </div>
+  </section>
+
+  <section id="download" class="wrap">
+    <div class="download">
+      <h2 class="section-title">NEPOLION AI Download</h2>
+      <p class="muted">
+        Android অ্যাপের প্রথম পরীক্ষিত সংস্করণ প্রস্তুত হলে
+        এখানে অফিসিয়াল ডাউনলোড লিংক প্রকাশ করা হবে।
+      </p>
+      <span class="btn disabled" aria-disabled="true">APK Coming Soon</span>
+      <p class="muted">এখনো APK প্রকাশ করা হয়নি। অজানা উৎস থেকে কোনো APK ইনস্টল করবেন না।</p>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <h2 class="section-title">সাধারণ প্রশ্ন</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>NEPOLION AI কি ফ্রি?</h3>
+        <p>প্রাথমিক ওয়েবসাইট বিনামূল্যে ব্যবহারযোগ্য রাখার পরিকল্পনা রয়েছে। ভবিষ্যৎ AI ব্যবহারে সীমা থাকতে পারে।</p>
+      </article>
+      <article class="card">
+        <h3>অ্যাপ কি ডাউনলোড করা যাবে?</h3>
+        <p>Android অ্যাপ তৈরি ও পরীক্ষা শেষ হলে অফিসিয়াল APK লিংক এখানে দেওয়া হবে।</p>
+      </article>
+      <article class="card">
+        <h3>ফোন নিয়ন্ত্রণ করতে পারবে?</h3>
+        <p>শুধু Android-এর অনুমোদিত API, সমর্থিত ডিভাইস এবং ব্যবহারকারীর স্পষ্ট অনুমতির মধ্যে।</p>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <b class="gradient">NEPOLION AI</b>
+    <p>Your Personal AI. Your Control.</p>
+    <p>Brand: MR NEPOLION</p>
+    <p>© <span id="year"></span> NEPOLION AI. Project website.</p>
+    <p>Contact: প্রকাশের আগে এখানে অফিসিয়াল যোগাযোগের ইমেইল যোগ করুন।</p>
+  </div>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
